@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 20px 0;
+}
+
+.img__container {
+  display: inherit;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 15px;
+}
+
+.menu__container {
+  padding-right: 25px;
+}
+
+.menu {
+  width: 18px;
+  padding-top: -1px;
+}
