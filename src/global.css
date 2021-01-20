@@ -18,12 +18,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
   font-family: 'Be Vietnam', sans-serif;
   font-size: 62.5%;
-}
-
-main {
-  font-size: 1.6rem;
 }
 
 .attribution { 
