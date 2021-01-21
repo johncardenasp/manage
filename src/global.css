@@ -23,11 +23,20 @@ body {
   font-size: 62.5%;
 }
 
-.attribution { 
-  font-size: 11px;
-  text-align: center; 
+h1, h2, h3, h4, p, a, span, blockquote {
+  margin: 0;
+  padding: 0;
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%);
+h1, h2, h3, h4 {
+  color: var(--blue);
+}
+
+p, a, span, blockquote {
+  color: var(--gray);
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
