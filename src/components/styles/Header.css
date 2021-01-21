@@ -23,5 +23,6 @@
 
 .menu {
   width: 18px;
-  padding-top: -1px;
+  padding-top: 1px;
+  cursor: pointer;
 }
