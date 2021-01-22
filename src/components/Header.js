@@ -1,11 +1,13 @@
 import React from 'react';
+
 import './styles/Header.css';
+
 import logo from '../images/logo.svg';
 import burgerMenu from '../images/icon-hamburger.svg';
 
 function Header() {
 
-  // function onClick() {};
+  // function onClick() {} for menu;
 
   return (
     <header className="header">

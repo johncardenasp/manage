@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './styles/Footer.css';
+
 import fblogo from '../images/icon-facebook.svg';
 import ytlogo from '../images/icon-youtube.svg';
 import twlogo from '../images/icon-twitter.svg';

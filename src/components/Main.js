@@ -1,9 +1,16 @@
 import React from 'react';
+
 import './styles/Main.css';
+
 import Button from './Button';
 import Card from './Cards';
+import Opinion from './Opinions';
+
 import hero from '../images/illustration-intro.svg';
-import ali from '../images/avatar-ali.png'
+import anisha from '../images/avatar-anisha.png';
+import ali from '../images/avatar-ali.png';
+import richard from '../images/avatar-richard.png';
+import shanai from '../images/avatar-shanai.png';
 
 function Main() {
   return (
@@ -46,15 +53,28 @@ function Main() {
         />
       </section>
       <section className="opinions">
-        <h2>What they’ve said</h2>
-        {/* <Opinion /> */}
-        <div className="opinions__container">
-          <figure>
-            <img src={ali} alt="Avatar" />
-          </figure>
-          <h4>Ali Bravo</h4>
-          <blockquote>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused"</blockquote>
-        </div>
+      <h2>What they’ve said</h2>
+        <Opinion 
+          image={anisha}
+          name="Anisha Li"
+          blockquote="Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."
+        />
+        <Opinion 
+          image={ali}
+          name="Ali Bravo"
+          blockquote="We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."
+        />
+        <Opinion 
+          image={richard}
+          name="Richard Watts"
+          blockquote="Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!"
+        />
+        <Opinion 
+          image={shanai}
+          name="Shanai Gough"
+          blockquote="Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."
+        />
+      </section>
         <div className="move-slider">
           <div className="circles" />
           <div className="circles" />
@@ -62,7 +82,6 @@ function Main() {
           <div className="circles" />
         </div>
         <Button />
-      </section>
       <section className="simplify__work">
         <h2>Simplify how your team works today.</h2>
         <button className="simplify__work-button">Get Started</button>
