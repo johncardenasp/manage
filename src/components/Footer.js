@@ -55,19 +55,19 @@ class Footer extends React.Component {
         </nav>
         <div className="footer__social-links">
           <figure>
-            <img src={fblogo} alt="Visit us in Facebook"/>
+            <img src={fblogo} className="footer__icon" alt="Visit us in Facebook"/>
           </figure>
           <figure>
-            <img src={ytlogo} alt="Visit us in Youtube"/>
+            <img src={ytlogo} className="footer__icon" alt="Visit us in Youtube"/>
           </figure>
           <figure>
-            <img src={twlogo} alt="Visit us in Twitter"/>
+            <img src={twlogo} className="footer__icon" alt="Visit us in Twitter"/>
           </figure>
           <figure>
-            <img src={ptlogo} alt="Visit us in Pinterest"/>
+            <img src={ptlogo} className="footer__icon" alt="Visit us in Pinterest"/>
           </figure>
           <figure>
-            <img src={iglogo} alt="Visit us in Instagram"/>
+            <img src={iglogo} className="footer__icon" alt="Visit us in Instagram"/>
           </figure>
         </div>
         <div className="footer__logo">

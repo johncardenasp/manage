@@ -52,8 +52,10 @@ function Main() {
           description="Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution."
         />
       </section>
+      <div className="opinions__title">
+        <h2>What they’ve said</h2>
+      </div>
       <section className="opinions">
-      <h2>What they’ve said</h2>
         <Opinion 
           image={anisha}
           name="Anisha Li"
@@ -75,16 +77,22 @@ function Main() {
           blockquote="Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."
         />
       </section>
-        <div className="move-slider">
-          <div className="circles" />
-          <div className="circles" />
-          <div className="circles" />
-          <div className="circles" />
+      <div className="move-slider">
+        <div className="circles">
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
         </div>
-        <Button />
+        <div className="circles__button">
+          <Button />
+        </div>
+      </div>
       <section className="simplify__work">
-        <h2>Simplify how your team works today.</h2>
-        <button className="simplify__work-button">Get Started</button>
+        <div className="simplify__work-content">
+          <h2>Simplify how your team works today.</h2>
+          <button className="simplify__work-button">Get Started</button>
+        </div>
       </section>
     </main>
   );

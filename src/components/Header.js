@@ -11,19 +11,18 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="img__container">
+      <div className="logo__container">
         <img src={logo} className="header__logo" alt="Manage logo" />
       </div>
-      <div className="menu__container">
+      <nav className="menu__container">
         <img 
           src={burgerMenu} 
           // onClick
-          className="menu" 
+          className="burguer-menu" 
           alt="Menu" 
         />
-      <div className="displayed__menu">
-      </div>
-      </div>
+        <div className="displayed__menu" />
+      </nav>
     </header>
   );
 }
