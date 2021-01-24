@@ -40,11 +40,12 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  max-width: 430px;
   margin: 40px 0 0 0;
 }
 
 .footer__nav ul {
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 0;
   text-align: left;
   list-style: none;
@@ -59,12 +60,19 @@
 
 .footer__social-links {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: 40px;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.footer__social-links figure img {
+.footer__social-links figure {
+  margin-right: 30px;
+}
+
+.footer__social-links figure:last-child {
+  margin-right: 0;
+}
+
+.footer__icon {
   width: 30px;
   cursor: pointer;
 }

@@ -31,12 +31,15 @@
 
 .card__title {
   grid-area: right;
-  background-color: var(--pale-red);
-  width: 110%;
+  justify-content: flex-start;
+  width: 100%;
+  background: linear-gradient(to right, var(--pale-red) 60%, #FFFFFF);
 }
 
 .card__title h3 {
   font-size: 0.8rem;
+  margin-left: 15px;
+
 }
 
 .card__description {
