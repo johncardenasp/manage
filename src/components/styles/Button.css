@@ -1,0 +1,13 @@
+.get-started-button {
+  width: 110px;
+  height: 35px;
+  background-color: var(--red);
+  color: var(--light-gray);
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0px 3px 7px -1px hsl(12, 88%, 59%, 0.8);
+  outline: none;
+  cursor: pointer;
+}

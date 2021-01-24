@@ -10,7 +10,7 @@
   --pale-red: hsl(13, 100%, 96%);
   --blue: hsl(228, 39%, 23%);
   --dark-blue: hsl(233, 12%, 13%);
-  --gray: hsl(227, 12%, 61%);
+  --gray: hsl(0, 0%, 35%, 1);
   --light-gray: hsl(0, 0%, 98%);
 }
 
@@ -18,19 +18,25 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
   font-family: 'Be Vietnam', sans-serif;
   font-size: 62.5%;
 }
 
-main {
-  font-size: 1.6rem;
+h1, h2, h3, h4, p, a, span, blockquote {
+  margin: 0;
+  padding: 0;
 }
 
-.attribution { 
-  font-size: 11px;
-  text-align: center; 
+h1, h2, h3, h4 {
+  color: var(--blue);
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%);
+p, a, span, blockquote {
+  color: var(--gray);
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }

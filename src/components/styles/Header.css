@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo__container {
+  display: inherit;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 15px;
+}
+
+.menu__container {
+  position: relative;
+  padding-right: 25px;
+}
+
+.menu__container::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url("../../images/bg-tablet-pattern.svg");
+  background-size: 370px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  width: 318px;
+  height: 350px;
+  top: -30px;
+  left: -268px;
+}
+
+.burger-menu {
+  width: 18px;
+  padding-top: 1px;
+  cursor: pointer;
+}
