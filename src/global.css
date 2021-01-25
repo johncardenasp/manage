@@ -36,6 +36,16 @@ p, a, span, blockquote {
   color: var(--gray);
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 figure {
   margin: 0;
   padding: 0;

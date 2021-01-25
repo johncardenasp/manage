@@ -1,7 +1,8 @@
 .opinions__card {
   min-width: 200px;
   max-width: 300px;
-  margin: 0 30px;
+  margin: 0 25px;
+  background-color: var(--light-gray);
 }
 
 .opinions__card:first-child {
