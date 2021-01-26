@@ -29,3 +29,13 @@
   margin: 15px;
   font-size: 0.7rem;
 }
+
+@media (min-width: 735px) {
+  .opinions__card {
+    padding: 0;
+  }
+
+  .opinions__card:first-child {
+  padding-left: 0;
+  }
+}
