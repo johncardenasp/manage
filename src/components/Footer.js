@@ -10,22 +10,62 @@ import iglogo from '../images/icon-instagram.svg';
 import logoWhite from '../images/logo-white.svg';
 
 class Footer extends React.Component {
+
+  state = {
+    email: "",
+    emailError: ""
+  }
+
+  handleChange = e => {
+    const isCheckbox = e.target.type === 'checkbox';
+
+    this.setState({
+      [e.target.name]: isCheckbox
+      ? e.target.checked
+      : e.target.value
+    });
+  };
+
+  validate = () => {
+    let emailError = '';
+    
+    if(!this.state.email.includes('@') || !this.state.email.includes('.')) {
+      emailError = 'please insert a valid email';
+    }
+
+    if(emailError) {
+      this.setState({emailError});
+      return false;
+    }
+
+    return true;
+  }
+
+  handleSubmit = e => {
+    e.preventDefault();
+    const isValid = this.validate();
+    if(isValid) {
+      console.log(this.state)
+    }
+  }
+
   render() {
     return (
       <footer className="footer">
         <div className="footer__form">
           <form onSubmit={this.handleSubmit}>
             <label htmlFor="email">
-              <input 
-                type="email"
+              <input
                 name="email"
-                placeholder="Updates in your inbox..."  
+                placeholder="Updates in your inbox..." 
+                value={this.state.email}
+                onChange={this.handleChange} 
               />
             </label>
             <button type="submit">GO</button>
             <p className="email__error">
               <i>
-                Hola
+                {this.state.emailError}
               </i>
             </p>
           </form>
