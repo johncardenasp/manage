@@ -40,6 +40,12 @@
   opacity: 0.7;
 }
 
+.email__error {
+  font-size: 0.7rem;
+  color: var(--red);
+  margin-top: 10px;
+}
+
 .footer__nav {
   display: flex;
   justify-content: space-around;

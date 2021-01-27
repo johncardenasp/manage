@@ -9,21 +9,25 @@ import ptlogo from '../images/icon-pinterest.svg';
 import iglogo from '../images/icon-instagram.svg';
 import logoWhite from '../images/logo-white.svg';
 
-class Footer extends React.Component { 
-
-  handleSubmit = (e) => {
-    e.preventDefault();
-  }
-
+class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
         <div className="footer__form">
           <form onSubmit={this.handleSubmit}>
             <label htmlFor="email">
-              <input type="email" name="email" placeholder="Updates in your inbox..." />
+              <input 
+                type="email"
+                name="email"
+                placeholder="Updates in your inbox..."  
+              />
             </label>
             <button type="submit">GO</button>
+            <p className="email__error">
+              <i>
+                Hola
+              </i>
+            </p>
           </form>
         </div>
         <nav className="footer__nav">
