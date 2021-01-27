@@ -70,6 +70,10 @@
   color: var(--blue);
 }
 
+.open a:hover {
+  color: var(--red);
+}
+
 .menu__button {
   display: none;
 }
