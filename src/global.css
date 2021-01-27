@@ -12,6 +12,7 @@
   --dark-blue: hsl(233, 12%, 13%);
   --gray: hsl(0, 0%, 35%, 1);
   --light-gray: hsl(0, 0%, 98%);
+  --hover-color: rgba(89, 89, 89, 0.6);
 }
 
 body {

@@ -38,4 +38,17 @@
   .opinions__card:first-child {
   padding-left: 0;
   }
+
+  .opinions__card figure img {
+  width: 100px;
+  }
+
+  .opinions__card h4 {
+    font-size: 1rem;
+  }
+
+  .opinions__card blockquote {
+    margin: 15px;
+    font-size: 0.8rem;
+  }
 }
