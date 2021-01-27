@@ -1,7 +1,8 @@
 .opinions__card {
   min-width: 200px;
   max-width: 300px;
-  margin: 0 30px;
+  margin: 0 25px;
+  background-color: var(--light-gray);
 }
 
 .opinions__card:first-child {
@@ -27,4 +28,27 @@
 .opinions__card blockquote {
   margin: 15px;
   font-size: 0.7rem;
+}
+
+@media (min-width: 735px) {
+  .opinions__card {
+    padding: 0;
+  }
+
+  .opinions__card:first-child {
+  padding-left: 0;
+  }
+
+  .opinions__card figure img {
+  width: 100px;
+  }
+
+  .opinions__card h4 {
+    font-size: 1rem;
+  }
+
+  .opinions__card blockquote {
+    margin: 15px;
+    font-size: 0.8rem;
+  }
 }

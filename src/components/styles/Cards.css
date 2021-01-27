@@ -38,11 +38,20 @@
 
 .card__title h3 {
   font-size: 0.8rem;
-  margin-left: 15px;
-
+  margin-left: 25px;
 }
 
 .card__description {
   grid-area: bottom;
   margin-top: 12px;
+}
+
+@media (min-width: 735px) {
+  .card__title {
+    background: none;
+  }
+
+  .card__title h3 {
+    font-size: 1rem;
+  }
 }

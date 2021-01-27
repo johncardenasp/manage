@@ -15,7 +15,7 @@
   width: 315px;
 }
 
-.main__content {
+.better__products {
   position: relative;
   text-align: center;
 }
@@ -30,16 +30,16 @@
   background-size: 300px;
   width: 134px;
   height: 305px;
-  bottom: -92px;
+  bottom: 0;
   right: 0;
 }
 
-.main__content h1 {
+.better__products h1 {
   font-size: 1.8rem;
   margin: 12px 0;
 }
 
-.main__content p {
+.better__products p {
   font-size: 0.8rem;
   margin-bottom: 25px;
 }
@@ -58,6 +58,11 @@
   font-size: 0.7rem;
 }
 
+.opinions__title {
+  margin: 40px 0 0 0;
+  font-size: 1.6rem;
+}
+
 .opinions {
   display: flex;
   align-items: center;
@@ -67,15 +72,7 @@
   text-align: center;
 }
 
-.opinions__title {
-  margin: 40px 0 0 0;
-}
-
-.opinions__title h2 {
-  font-size: 1.6rem;
-}
-
-.move-slider {
+.move__slider {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,4 +157,130 @@ Button.simplify__work-button {
   box-shadow: 0px 3px 7px -1px hsl(0,0,0, 0.1);
   outline: none;
   cursor: pointer;
+}
+
+Button.simplify__work-button:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 735px) {
+  .main p {
+    font-size: 0.9rem;
+  }
+
+  .main {
+    display: grid;
+    grid-template-areas: "better-products hero"
+                         "different different"
+                         "op-title op-title"
+                         "opinions opinions"
+                         "button button"
+                         "simplify simplify";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: 40px 0 0 0;
+  }
+  
+  .main__hero {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main__hero::before {
+    display: none;
+  }
+
+  .main__hero-image {
+    width: 360px;
+  }
+  
+  .better__products {
+    grid-area: better-products;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: left;
+    width: 60%;
+    margin-left: 90px;
+  }
+
+  .better__products h1 {
+  font-size: 2.4rem;
+  }
+
+  .better__products p {
+  font-size: 1rem;
+  }
+
+  .main__whats-different {
+    grid-area: different;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  
+  .main__whats-different .intro {
+    width: 30%;
+  }
+  
+  .main__whats-different .cards {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .opinions__title {
+    grid-area: op-title;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 30px 0;
+    font-size: 1.8rem;
+  }
+
+  .opinions {
+    grid-area: opinions;
+  }
+
+  .move__slider {
+    display: none;
+  }
+
+  .button__main-container {
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px 0;
+  }
+  
+  .simplify__work {
+    grid-area: simplify;
+    height: 200px;
+    width: 100%;
+  }
+
+  .simplify__work-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .simplify__work-content h2 {
+    text-align: left;
+    width: 30%;
+    margin-left: 100px;
+    padding: 0;
+  }
+
+  .simplify__work::before {
+    display: none;
+  }
+
+  Button.simplify__work-button {
+    margin: 0;
+    margin-right: 100px;
+  }
 }
