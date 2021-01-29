@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/manage/static/css/main.1c059cf2.chunk.css",
+    "main.js": "/manage/static/js/main.f80742e1.chunk.js",
+    "main.js.map": "/manage/static/js/main.f80742e1.chunk.js.map",
+    "runtime-main.js": "/manage/static/js/runtime-main.7ce02361.js",
+    "runtime-main.js.map": "/manage/static/js/runtime-main.7ce02361.js.map",
+    "static/js/2.3f5103fe.chunk.js": "/manage/static/js/2.3f5103fe.chunk.js",
+    "static/js/2.3f5103fe.chunk.js.map": "/manage/static/js/2.3f5103fe.chunk.js.map",
+    "static/js/3.ac856a33.chunk.js": "/manage/static/js/3.ac856a33.chunk.js",
+    "static/js/3.ac856a33.chunk.js.map": "/manage/static/js/3.ac856a33.chunk.js.map",
+    "index.html": "/manage/index.html",
+    "static/css/main.1c059cf2.chunk.css.map": "/manage/static/css/main.1c059cf2.chunk.css.map",
+    "static/js/2.3f5103fe.chunk.js.LICENSE.txt": "/manage/static/js/2.3f5103fe.chunk.js.LICENSE.txt",
+    "static/media/avatar-ali.88f9155c.png": "/manage/static/media/avatar-ali.88f9155c.png",
+    "static/media/avatar-anisha.484e15bc.png": "/manage/static/media/avatar-anisha.484e15bc.png",
+    "static/media/avatar-richard.ace8e089.png": "/manage/static/media/avatar-richard.ace8e089.png",
+    "static/media/avatar-shanai.4bbe2f95.png": "/manage/static/media/avatar-shanai.4bbe2f95.png",
+    "static/media/Main.css": "/manage/static/media/bg-tablet-pattern.b6990a98.svg",
+    "static/media/icon-close.d5ba0dc5.svg": "/manage/static/media/icon-close.d5ba0dc5.svg",
+    "static/media/icon-facebook.1e9b3338.svg": "/manage/static/media/icon-facebook.1e9b3338.svg",
+    "static/media/icon-hamburger.144245f5.svg": "/manage/static/media/icon-hamburger.144245f5.svg",
+    "static/media/icon-instagram.54d3962e.svg": "/manage/static/media/icon-instagram.54d3962e.svg",
+    "static/media/icon-pinterest.45264b1d.svg": "/manage/static/media/icon-pinterest.45264b1d.svg",
+    "static/media/icon-twitter.01a8907d.svg": "/manage/static/media/icon-twitter.01a8907d.svg",
+    "static/media/icon-youtube.7d6960fb.svg": "/manage/static/media/icon-youtube.7d6960fb.svg",
+    "static/media/illustration-intro.cb9a8a95.svg": "/manage/static/media/illustration-intro.cb9a8a95.svg",
+    "static/media/logo-white.ed205f76.svg": "/manage/static/media/logo-white.ed205f76.svg",
+    "static/media/logo.66a57610.svg": "/manage/static/media/logo.66a57610.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ce02361.js",
+    "static/js/2.3f5103fe.chunk.js",
+    "static/css/main.1c059cf2.chunk.css",
+    "static/js/main.f80742e1.chunk.js"
+  ]
+}
