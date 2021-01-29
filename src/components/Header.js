@@ -49,19 +49,19 @@ class Header extends React.Component {
           )}
 
           <ul className={this.state.open ? 'no-open' : 'open'} >
-            <a href="/">
+            <a href="#">
               <li>Pricing</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Product</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>About Us</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Careers</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Community</li>
             </a>
           </ul>

@@ -31,6 +31,8 @@ class Footer extends React.Component {
     
     if(!this.state.email.includes('@') || !this.state.email.includes('.')) {
       emailError = 'please insert a valid email';
+    } else {
+      emailError = 'successful email!';
     }
 
     if(emailError) {
@@ -72,27 +74,27 @@ class Footer extends React.Component {
         </div>
         <nav className="footer__nav">
           <ul>
-            <a href="/">
+            <a href="#">
               <li>Home</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Pricing</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Products</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Abouts Us</li>
             </a>
           </ul>
           <ul>
-            <a href="/">
+            <a href="#">
               <li>Careers</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Community</li>
             </a>
-            <a href="/">
+            <a href="#">
               <li>Privacy Policy</li>
             </a>
           </ul>
